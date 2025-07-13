@@ -110,6 +110,7 @@ class DetailsPage extends StatelessWidget {
                       ),
                       child: Text(isDoneVal ? 'Completed' : 'Mark as Complete',
                           style: const TextStyle(color: Colors.white)),
+
                     ),
                     const Divider(thickness: 1),
                   ],

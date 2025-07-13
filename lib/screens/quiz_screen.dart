@@ -163,6 +163,7 @@ class _QuizScreenState extends State<QuizScreen>{
                                             context,
                                             MaterialPageRoute(builder: (context) => languagesPages()),
                                                 (route) => false,
+
                                           );
                                         }
                                             , child: Text("Ok",style: TextStyle(

@@ -14,6 +14,7 @@ class ProfileDrawer extends StatelessWidget {
     String? email;
     if(auth.model!=null)
     {
+
       name=auth.model!.name;
       email=auth.model!.email;
     }
