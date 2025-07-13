@@ -49,7 +49,7 @@ class TopicsScreen extends StatelessWidget {
                     context: context,
                     builder: (_) => AlertDialog(
                       title: const Text('Congratulations!',
-                          style: TextStyle(color: Color(0xff046582))),
+                          style: TextStyle(color: Color(0xff046582),fontWeight: FontWeight.bold)),
                       content: const Text(
                           'You have completed all topics! Ready for the quiz?'),
                       actions: [
