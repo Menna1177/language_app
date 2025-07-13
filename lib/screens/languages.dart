@@ -119,7 +119,7 @@ class languagesPages extends StatelessWidget {
                     },
                     child: const Text(
                       'Start now',
-                      style: TextStyle(color: Color(0xff046582)),
+                      style: TextStyle(color: Colors.white),
                     ),
                   ),
 

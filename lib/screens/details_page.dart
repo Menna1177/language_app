@@ -109,7 +109,7 @@ class DetailsPage extends StatelessWidget {
                         isDoneVal ? Colors.grey : const Color(0xffFFBE0B),
                       ),
                       child: Text(isDoneVal ? 'Completed' : 'Mark as Complete',
-                          style: const TextStyle(color: Color(0xff046582))),
+                          style: const TextStyle(color: Colors.white)),
                     ),
                     const Divider(thickness: 1),
                   ],

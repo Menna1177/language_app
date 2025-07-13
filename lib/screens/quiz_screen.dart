@@ -146,13 +146,13 @@ class _QuizScreenState extends State<QuizScreen>{
                                 }
                                 showDialog(context: context
                                     , builder: (context)=>AlertDialog(
-                                      backgroundColor: Color(0xff046582),
+                                      backgroundColor: Colors.white ,
                                       title: Text('You answered ${correct} out of ${state.questions.length} correclty',
                                         style: TextStyle(
                                           fontSize: 20.sp,
                                           fontWeight: FontWeight.bold,
                                           color:
-                                          Colors.white,
+                                          Color(0xff046582),
 
 
                                         ),
@@ -180,7 +180,7 @@ class _QuizScreenState extends State<QuizScreen>{
                               child: Text(
                                 "Submit",
                                 style: TextStyle(
-                                    color: Color(0xff046582),
+                                    color: Colors.white,
                                     fontWeight: FontWeight.bold,
                                     fontSize: 18.sp
                                 ),
